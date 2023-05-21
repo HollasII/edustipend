@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #eeeeee;
+  padding: 20px;
+}
+body div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body div .top-nav {
+  width: 100%;
+  margin: 10px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 8px;
+  background: #ffffff;
+}
+body div .top-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 5px;
+}
+body div .top-nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3px;
+}
+body div .top-nav ul li a {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  line-height: 17px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: capitalize;
+}
+body div .top-nav ul li .cta {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  line-height: 17px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: capitalize;
+  background: #fe9900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+body div .top-nav ul li .cta:hover {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+body div .main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px 0;
+}
+body div .main .hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px;
+}
+body div .main .hero h1 {
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 24px;
+  font-weight: 800;
+  color: #000000;
+  text-transform: capitalize;
+  margin: 5px;
+}
+body div .main .hero p {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000000;
+  margin: 2px 5px;
+}
+body div .main .hero a {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  line-height: 17px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: capitalize;
+  background: #fe9900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 3px 5px;
+}
+body div .main .hero a:hover {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+body div .main .sideB {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #666666;
+  height: 78vh;
+  width: 50%;
+  padding: 15px;
+}
+body div .main .sideB h2 {
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 17px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: capitalize;
+}
+body div .main .sideB ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 90%;
+}
+body div .main .sideB ul li {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  line-height: 17px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: capitalize;
+  background: #fe9900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background: #ffffff;
+  gap: 8px;
+}
+body div .main .sideB ul li:hover {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+body div .main .sideB ul li span {
+  font-size: 20px;
+}
+body div .main .sideB a {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  line-height: 17px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: capitalize;
+  background: #fe9900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+body div .main .sideB a:hover {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+@mixin link{
+  font-size: 17px;
+  font-family: map-get($fonts , body );
+  line-height: 17px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+@mixin cta{
+  @include link();
+  background: map-get($colors, main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+
+  &:hover{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  }
+}
