@@ -1,5 +1,3 @@
-import cross from '../style/cross.svg';
-
 const SideBar = () => {
   return(
     <div className="sideB">
